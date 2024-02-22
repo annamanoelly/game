@@ -27,9 +27,15 @@ const loop = setInterval(() =>{
         mario.style.animation= 'none';
         mario.style.bottom = `${marioPosition}px`;
 
-        mario.src = ewfwef;
+        mario.src = 'game-over.png';
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
+
+
+          // Reproduzir o som de perder o jogo
+        const gameOverSound = document.getElementById('game-over-sound');
+        gameOverSound.currentTime = 0; // Reinicia o áudio se já estiver tocando
+        gameOverSound.play();
 
         clearInterval(loop);
     }

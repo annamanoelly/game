@@ -4,25 +4,29 @@
     box-sizing: border-box;
 }
 
+
 .game-board{
     width: 100%;
     height: 500px;
-    border: 15px solid rgb(35, 160, 35);
+    border: 20px solid rgb(9, 10, 9);
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(#87ceeb, #e0f6ff);
+    background-image: url(doces.png);
+    background-size: contain;
+    background-position: center;
+    
 }
 
 .pipe{
     position: absolute;
     bottom: 0;
-    width: 80px;
+    width: 100px;
     animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario{
-    width: 150px;
+    width: 200px;
     position: absolute;
     bottom: 0;
     
