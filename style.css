@@ -19,11 +19,11 @@
 }
 
 button{
-    width: 5%;
-    height: 30px;
+    width: 10%;
+    height: 10%;
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     opacity: 0.6;
     transition: 0.3s;
     border: 2px solid #0c1031;
