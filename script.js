@@ -11,6 +11,18 @@ const jump = () => {
 
 }
 
+
+const restartButton = document.getElementById('restart-button');
+
+restartButton.addEventListener('click', () => {
+    // Lógica para reiniciar o jogo
+    // Isso pode incluir resetar a posição do personagem, reiniciar o cronômetro, etc.
+    
+    // Por exemplo, você pode recarregar a página para reiniciar o jogo
+    location.reload();
+});
+
+
 const loop = setInterval(() =>{
 
     console.log('loop')

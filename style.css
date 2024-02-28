@@ -18,6 +18,20 @@
     
 }
 
+button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border: 2px solid #0c1031;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
 
 
 .pipe{
