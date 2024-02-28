@@ -28,14 +28,8 @@ const loop = setInterval(() =>{
         mario.style.bottom = `${marioPosition}px`;
 
         mario.src = 'game-over.png';
-        mario.style.width = '250px'
+        mario.style.width = '400px'
         mario.style.marginLeft = '50px'
-
-
-          // Reproduzir o som de perder o jogo
-        const gameOverSound = document.getElementById('game-over-sound');
-        gameOverSound.currentTime = 0; // Reinicia o áudio se já estiver tocando
-        gameOverSound.play();
 
         clearInterval(loop);
     }
@@ -45,3 +39,5 @@ const loop = setInterval(() =>{
 
 
 document.addEventListener('touchstart',jump);
+
+document.addEventListener('keydown', jump);
