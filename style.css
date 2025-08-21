@@ -14,36 +14,22 @@ html, body {
 .game-board{
     width: 100vw;
     height: 100vh;
-    border: 20px solid rgb(9, 10, 9);
+    border: none;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background-image: url(img/doces.png);
+    background: linear-gradient(to bottom, #2196f3 85%, #4bbc4e 15%);
     background-size: contain;
     background-position: center;
     
 }
 
-button{
-    width: 6%;
-    height: 7%;
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    opacity: 0.6;
-    transition: 0.3s;
-    border: 2px solid #0c1031;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-
-}
 
 
 .pipe{
     position: absolute;
     bottom: 0;
-    width: 70px;
+    width: 200px;
     animation: pipe-animation 1.5s infinite linear;
 }
 
@@ -51,6 +37,7 @@ button{
     width: 300px;
     position: absolute;
     bottom: 0;
+    left: 15%;
     
 }
 
