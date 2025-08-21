@@ -1,4 +1,4 @@
-const mario = document.querySelector('.mario');
+const mario = document.querySelector('.gif');
 const pipe = document.querySelector('.pipe');
 
 const jump = () => {
@@ -12,14 +12,12 @@ const jump = () => {
 }
 
 
-const restartButton = document.getElementById('restart-button');
 
-restartButton.addEventListener('click', () => {
-    // Lógica para reiniciar o jogo
-    // Isso pode incluir resetar a posição do personagem, reiniciar o cronômetro, etc.
-    
-    // Por exemplo, você pode recarregar a página para reiniciar o jogo
-    location.reload();
+// Reiniciar o jogo ao pressionar Enter
+document.addEventListener('keydown', (event) => {
+    if (event.code === 'Enter') {
+        location.reload();
+    }
 });
 
 

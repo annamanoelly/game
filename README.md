@@ -1,4 +1,4 @@
-# Jogo do pular obstáculo. 
+# Jogo de pular obstáculo. 
 
 Este é um jogo simples inspirado no clássico Mario, onde o personagem interage com objetos no cenário. 
 
